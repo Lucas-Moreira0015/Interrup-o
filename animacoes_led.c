@@ -22,7 +22,7 @@ PIO pio;
 uint sm;
 
 // Pino de saída
-const uint led_red = 12;    // Atribui o pino do led vermelho ao pino 12
+const uint led_red = 11;    // Atribui o pino do led vermelho ao pino 12
 const uint button_A = 5;    // Atribui o pino do botão A à variável
 const uint button_B = 6;    // Atribui o pino do botão B à variável
 
@@ -79,9 +79,9 @@ void exibir_numero(int numero) {
 
     {1, 1, 1, 1, 1,
      1, 0, 0, 0, 1,
-     0, 0, 0, 1, 0,
-     0, 0, 1, 0, 0,
-     0, 1, 0, 0, 0}, // 6
+     1, 1, 1, 1, 1,
+     1, 0, 0, 0, 0,
+     1, 1, 1, 1, 1}, // 6
 
     {0, 0, 1, 0, 0,
      0, 0, 1, 0, 0,
